@@ -1,0 +1,31 @@
+body {
+.slider {
+    position: relative;
+    width: 350px;
+    margin: 50px auto;
+    perspective: 1000px;
+    padding-top: 120px;
+    }
+ .rotator {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 55%;
+    height: 150px;
+    transform-style: preserve-3d;
+    animation: roter 29s linear infinite;
+    }
+  .items {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border: 2px solid white;
+    }
+
+ .items img {
+    height: 100%;
+    width: 100%;
+    transition: all 3s ease;
+    }
